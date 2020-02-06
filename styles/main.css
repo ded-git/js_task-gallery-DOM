@@ -1,0 +1,55 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.gallery__large-img {
+  width: 1000px;
+  height: 780px;
+  border: 1px grey solid;
+  border-radius: 7px;
+  padding: 5px; }
+
+.gallery__list {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.gallery .list-item {
+  text-decoration: none;
+  margin: 10px;
+  background-position: center; }
+  .gallery .list-item__link {
+    height: 0; }
+  .gallery .list-item .gallery__img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    border: 1px grey solid;
+    border-radius: 7px; }
+  .gallery .list-item .gallery__img:hover {
+    -webkit-box-shadow: 0 0 5px black;
+            box-shadow: 0 0 5px black; }
+
+/*# sourceMappingURL=main.css.map */
